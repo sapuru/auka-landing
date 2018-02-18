@@ -1,10 +1,120 @@
 <!DOCTYPE html>
-<html>
-	<head>
-  <meta charset="UTF-8">
+<html lang="es">
 
-  </head>
-	<body>
-  </body>
-	
+<head>
+  <!-- etiquetas importantes, investigar, ver que se pone en title, description,keywords y si falta alguna mas-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Auka, EL TÍTULO SE MUESTRA EN LOS RESULTADOS DE GOOGLE</title>
+  <meta name="description" content="Desarrollo Web,Landing Page">
+  <meta name="keywords" content="palabras claves">
+  <meta name="autor" content="nombre del autor">
+
+  <!-- Bootstrap CSS y estilos agregados en el segundo link (cualquier estilo extra va en style.css)-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!--ver uso de etiquetas, main,section,article, etc, para contenido importante y secundario-->
+  <!--HEADER y MENÚ DE NAVEGACIÓN-Eva-->
+<header class="container-fluid style_banner_header img-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <nav id="menu" class="navbar navbar-toggleable-md navbar-inverse bg-tranparent fixed-top">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon bg-inverse"></span>
+          </button>
+            <div class="col-4 mt-3 logo_nav">
+              <a class="navbar-brand" href="#">
+                <img src="images/auka-sin-escudo.png" class="d-inline-block " alt="">
+              </a>
+            </div>
+          <div class="collapse navbar-collapse navbar-inverse" id="navbarSupportedContent">
+            <div class="navbar-nav ml-auto">
+              <a class="nav-item nav-link active mr-5" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link mr-5" href="#">Nosotras</a>
+              <a class="nav-item nav-link mr-5" href="#">Servicios</a>
+              <a class="nav-item nav-link mr-5" href="#">Portfolio</a>
+              <div>
+                <a href="#" class="btn btn-outline-secondary text-white">Contacto</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="row justify-content-between mt-5 pt-5">
+      <div class="col-lg-6 col-md-12 mt-5 pt-5">
+        <h1 class="text-center text-white display  pb-2 display">Sed ut perspiciatis unde omnis</h1>
+        <h2 class="text-center text-white lead">La tecnología..................................</h2>
+        <p class="text-white pt-3">Natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis</p>
+      </div>
+      <div class="col-lg-5 col-md-12 mt-5 pt-4 logo_header">
+        <img src="images/logo-sobre-fondo-oscuro.png" class="mx-auto d-block img-fluid" alt="">
+      </div>
+    </div>
+      <div class="row justify-content-between mt-5 pt-4">
+        <div class="col-12 text-center pb-4 iconos_hero">
+          <figure class="figure mr-2">
+            <img src="images/iconos-hero.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+            <figcaption class="figure-caption text-white">A caption for the above image.</figcaption>
+          </figure>
+          <figure class="figure mr-2">
+            <img src="images/iconos-hero-2.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+            <figcaption class="figure-caption text-white">A caption for the above image.</figcaption>
+          </figure>
+          <figure class="figure mr-2">
+            <img src="images/iconos-hero-2.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+            <figcaption class="figure-caption text-white">A caption for the above image.</figcaption>
+          </figure>
+          <figure class="figure">
+            <img src="images/iconos-hero.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+            <figcaption class="figure-caption text-white">A caption for the above image.</figcaption>
+          </figure>
+        </div>
+      </div>
+  </div>
+</header>
+<!--FIN HEADER y MENÚ DE NAVEGACIÓN-Eva-->
+
+  <!--SLIDER O CAROUSEL-->
+
+
+  <!--SERVICIOS-->
+
+
+  <!--NOSOTRAS-->
+
+
+  <!--PORFOLIO- VER ADONDE LO PONEMOS??-->
+
+
+  <!--STEP 1, STEP 2.....-->
+
+
+  <!--Environment overview at your fingertips, LOGO GIGANTE CON BOTÓN CONTRATANOS-->
+
+
+  <!--FOOTER Y FORMULARIO DE CONTACTO VISIBLE O NO?? VER??-->
+
+
+
+  <!-- jQuery,popper,Bootstrap JS y script para el efecto scroll del nav #menu, archivo js?? o lo dejamos acá??. -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+    $(window).scroll(function() {
+      if ($("#menu").offset().top > 56) {
+        $("#menu").addClass("bg-inverse");
+      } else {
+        $("#menu").removeClass("bg-inverse");
+      }
+    });
+  </script>
+
+</body>
+
 </html>
