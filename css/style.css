@@ -45,3 +45,7 @@ body {
   width: 320px;
   height: 300px;
 }
+
+#servicios {
+    background: url(../graficos/grilla-fondo-sobre-blanco.png);
+}
