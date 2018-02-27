@@ -5,78 +5,81 @@
   <!-- etiquetas importantes, investigar, ver que se pone en title, description,keywords y si falta alguna mas-->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <title>Auka, EL TÍTULO SE MUESTRA EN LOS RESULTADOS DE GOOGLE</title>
-  <meta name="description" content="Desarrollo Web,Landing Page">
+  <title>Auka</title>
+  <meta name="description" content="Creación de páginas Web, Landing Page, Sitios Institucionales, Maquetado">
   <meta name="keywords" content="palabras claves">
-  <meta name="autor" content="nombre del autor">
+  <meta name="autor" content="Auka">
 
   <!-- Bootstrap CSS y estilos agregados en el segundo link (cualquier estilo extra va en style.css)-->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="fonts/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Kanit:400,600,700|Mukta+Malar:400,500,600|Noto+Sans:400,700|Playfair+Display:400,700|Poppins:300,400|Raleway:400,500" rel="stylesheet">
+  <!--script para efecto scroll lento de toda la página (ACORDARSE DE AGREGAR data-scroll!!) se va a ver cuando la página este completa-->
+  <script src="js/smooth-scroll.min.js"></script>
+  <script src="js/efecto_smooth.js"></script>
+
 </head>
 
 <body>
   <!--ver uso de etiquetas, main,section,article, etc, para contenido importante y secundario-->
   <!--HEADER y MENÚ DE NAVEGACIÓN-Eva-->
-<header class="container-fluid style_banner_header img-fluid">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <nav id="menu" class="navbar navbar-toggleable-md navbar-inverse bg-tranparent fixed-top">
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon bg-inverse"></span>
-          </button>
-            <div class="col-4 mt-3 logo_nav">
-              <a class="navbar-brand" href="#">
-                <img src="images/auka-sin-escudo.png" class="d-inline-block " alt="">
-              </a>
+
+  <header class="container-fluid style_banner_header" id="scroll_inicio">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <nav id="menu" class="navbar navbar-toggleable-md style_nav bg-tranparent fixed-top">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar icon-menu"></span>
+              </button>
+            <div class="col-4 mt-2 mb-1 logo_nav">
+              <a class="navbar-brand" href="index.html">
+                  <img src="images/auka-sin-escudo.png" class="d-block" alt="Logo de Auka">
+                </a>
             </div>
-          <div class="collapse navbar-collapse navbar-inverse" id="navbarSupportedContent">
-            <div class="navbar-nav ml-auto">
-              <a class="nav-item nav-link active mr-5" href="#">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link mr-5" href="#">Nosotras</a>
-              <a class="nav-item nav-link mr-5" href="#">Servicios</a>
-              <a class="nav-item nav-link mr-5" href="#">Portfolio</a>
-              <div>
-                <a href="#" class="btn btn-outline-secondary text-white">Contacto</a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <div class="navbar-nav">
+                <a data-scroll class="nav-item nav-link style_link mr-3" href="#scroll_inicio"><span class="icon-home mr-1"></span>Inicio</a>
+                <a data-scroll class="nav-item nav-link style_link mr-3" href="#scroll_servicios"><span class="icon-tools mr-1"></span>Servicios</a>
+                <a data-scroll class="nav-item nav-link style_link mr-3" href="#"><span class="icon-star mr-1"></span>Nosotras</a>
+                <a data-scroll class="nav-item nav-link style_link mr-3" href="#"><span class="icon-suitcase mr-1"></span>Trabajos</a>
+                <div>
+                  <a data-scroll href="#scroll_consultas" class="btn btn-outline-secondary text-info mt-1 mr-4"><span class="icon-mail mr-1"></span>Contacto</a>
+                </div>
               </div>
             </div>
-          </div>
-        </nav>
+          </nav>
+        </div>
       </div>
-    </div>
-    <div class="row justify-content-between mt-5 pt-5">
-      <div class="col-lg-6 col-md-12 mt-5 pt-5">
-        <h1 class="text-center text-white display  pb-2 display">Sed ut perspiciatis unde omnis</h1>
-        <h2 class="text-center text-white lead">La tecnología..................................</h2>
-        <p class="text-white pt-3">Natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis</p>
+      <div class="row justify-content-between mt-5 pt-5">
+        <div class="col-lg-6 col-md-6 col-sm-12 mt-5 pt-5 justify-content-center">
+          <h1 class="text-center text-white pb-2 display">Sed ut perspiciatis unde omnis</h1>
+          <h2 class="text-center text-white lead">La tecnología..................................</h2>
+          <p class="text-white pt-3">Natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 mt-5 pt-5 justify-content-center">
+          <img src="images/logo-sobre-fondo-oscuro.png" class="img-fluid logo_header" alt="Logo de Auka escudo">
+        </div>
       </div>
-      <div class="col-lg-5 col-md-12 mt-5 pt-4 logo_header">
-        <img src="images/logo-sobre-fondo-oscuro.png" class="mx-auto d-block img-fluid" alt="">
-      </div>
-    </div>
-      <div class="row justify-content-between mt-5 pt-4">
-        <div class="col-12 text-center pb-4 iconos_hero">
-          <figure class="figure mr-2">
-            <img src="images/iconos-hero.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-            <figcaption class="figure-caption text-white">A caption for the above image.</figcaption>
-          </figure>
-          <figure class="figure mr-2">
-            <img src="images/iconos-hero-2.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-            <figcaption class="figure-caption text-white">A caption for the above image.</figcaption>
-          </figure>
-          <figure class="figure mr-2">
-            <img src="images/iconos-hero-2.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+      <div class="row mt-5 pt-4">
+        <div class="col pb-4 d-flex justify-content-around text-center iconos_hero">
+          <figure class="figure">
+            <img src="images/iconos-hero.png" class="figure-img img-fluid" alt="Lanza de mujer guerrera">
             <figcaption class="figure-caption text-white">A caption for the above image.</figcaption>
           </figure>
           <figure class="figure">
-            <img src="images/iconos-hero.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+            <img src="images/iconos-hero-2.png" class="figure-img img-fluid" alt="Creatividad de mujer desarrolladora">
+            <figcaption class="figure-caption text-white">A caption for the above image.</figcaption>
+          </figure>
+          <figure class="figure">
+            <img src="images/iconos-hero-2.png" class="figure-img img-fluid" alt="Herramientas de mujer desarrolladora Web">
             <figcaption class="figure-caption text-white">A caption for the above image.</figcaption>
           </figure>
         </div>
       </div>
-  </div>
-</header>
+    </div>
+  </header>
 <!--FIN HEADER y MENÚ DE NAVEGACIÓN-Eva-->
 
   <!--SLIDER O CAROUSEL-->
@@ -123,12 +126,12 @@
   <!--SERVICIOS-->
   <div class="container-fluid mt-3 pt-3"  id="servicios">
 
-    <div class="row">
+    <div class="row" id="scroll_servicios">
   <div class="col-12">
- <p  class="display-4 text-center">Servicios</p>
- </div>
- </div>
- <div class="row">
+  <p  class="display-4 text-center">Servicios</p>
+  </div>
+  </div>
+  <div class="row">
             <div class="col-sm-6 text-center">
               <img class="card-img img-fluid" src="graficos/icono-maquetado.png" class="figure-img img-fluid rounded">
                 <h3  class="text-center">Maquetado y desarollo web</h3>
@@ -139,8 +142,8 @@
 
            <h3 class="text-center">Landing pages</h3>
       </div>
- </div>
- <div class="row">
+  </div>
+  <div class="row">
       <div class="col-sm-6 text-center">
            <img class="card-img img-fluid" src="graficos/icono-sitios-institucionales.png" class="figure-img img-fluid rounded">
            <h3 class="text-center">Sitios institucionales</h3>
@@ -165,7 +168,23 @@
 
 
   <!--Environment overview at your fingertips, LOGO GIGANTE CON BOTÓN CONTRATANOS-->
-
+<section class="container-fluid mt-5 mb-5 pt-5">
+  <div class="container">
+    <h4 class="text-info text-center mb-3">Environment overview at your fingertips</h4>
+    <p class="text-muted text-center">Airgloss data and controls, accessible from anywhere, on all your devices</p>
+    <div class="row d-flex justify-content-center">
+      <div class="col-lg-6 col-md-12">
+        <figure class="figure">
+          <img src="images/globo-todo-conectado.png" class="img-fluid" alt="Logo globo conectado">
+        </figure>
+      </div>
+      <div class="col-12 mt-5 text-center">
+        <button type="button" class="btn btn-primary btn-outline-primary btn-lg" data-toggle="modal" data-target="#exampleModal" id="scroll_consultas">Consultas</button>
+      </div>
+    </div>
+  </div>
+</section>
+  <!--fin section-->
 
   <!--FOOTER Y FORMULARIO DE CONTACTO VISIBLE O NO?? VER??-->
 
@@ -178,9 +197,9 @@
   <script>
     $(window).scroll(function() {
       if ($("#menu").offset().top > 56) {
-        $("#menu").addClass("bg-inverse");
+        $("#menu").addClass("style_nav");
       } else {
-        $("#menu").removeClass("bg-inverse");
+        $("#menu").removeClass("style_nav");
       }
     });
   </script>
