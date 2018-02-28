@@ -7,7 +7,7 @@
   </head>
 	<body>
   </body>
-	
+
 =======
 <html lang="es">
 
@@ -198,7 +198,63 @@
 
   <!--FOOTER Y FORMULARIO DE CONTACTO VISIBLE O NO?? VER??-->
 
+  <footer class="container-fluid bg-inverse mb-5">
+    <div class="row justify-content-between">
+      <div class="col-2 logo_nav mt-4 ml-3">
+        <img src="images/auka-sin-escudo.png" class="img-fluid" alt="logo de auKa">
+        <p class="text-white mt-3">Martin Palero 20  CP 5501 Mendoza Argentina</p>
+      </div>
+      <div class="col-2 mt-5">
+        <p class="text-white text-center">Seguinos</p>
+        <span class="icon-facebook-with-circle "></span>
+        <span class="icon-twitter-with-circle"></span>
+        <span class="icon-instagram rounded"></span>
+      </div>
+      <div class="col-5 mt-5 pb-5 text-center">
+        <form>
+   <div class="form-group row has-success">
+     <label for="inputHorizontalSuccess" class="col-sm-2 col-form-label">Email</label>
+     <div class="col-sm-10">
+       <input type="email" class="form-control form-control-success" id="inputHorizontalSuccess" placeholder="name@example.com">
+       <div class="form-control-feedback">Success! You've done it.</div>
+       <small class="form-text text-muted">Example help text that remains unchanged.</small>
+     </div>
+      </div>
+       </form>
+       <!--Formulario-->
+     <button type="button" class="btn btn-primary mt-2 mr-5" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">CONTACTO</button>
 
+     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+       <div class="modal-dialog" role="document">
+         <div class="modal-content">
+           <div class="modal-header">
+             <h5 class="modal-title" id="exampleModalLabel">Nuevo Mensaje</h5>
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+               <span aria-hidden="true">&times;</span>
+             </button>
+           </div>
+           <div class="modal-body">
+             <form>
+               <div class="form-group">
+                 <label for="recipient-name" class="form-control-label">Contacto:</label>
+                 <input type="text" class="form-control" id="recipient-name">
+               </div>
+               <div class="form-group">
+                 <label for="message-text" class="form-control-label">Mensaje:</label>
+                 <textarea class="form-control" id="message-text"></textarea>
+               </div>
+             </form>
+           </div>
+           <div class="modal-footer">
+             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+             <button type="button" class="btn btn-primary">Enviar</button>
+           </div>
+         </div>
+       </div>
+     </div>
+
+    </div>
+  </footer>
 
   <!-- jQuery,popper,Bootstrap JS y script para el efecto scroll del nav #menu, archivo js?? o lo dejamos acá??. -->
   <script src="js/jquery-3.2.1.min.js"></script>
