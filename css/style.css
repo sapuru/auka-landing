@@ -50,6 +50,12 @@
 #servicios {
     background: url(../graficos/grilla-fondo-sobre-blanco.png);
 }
+
+.nosotras_bg {
+background: url(../graficos/grilla-fondo-azul.png)no-repeat center;;
+background-size: cover;
+}
+
 [class^='icono-team']
 figcaption, [class*=' icono-team']
 figcaption {
@@ -70,6 +76,7 @@ figcaption {
     -ms-transform: translate(0, 0);
     -o-transform: translate(0, 0);
     transform: translate(0, 0);
+    transition: all 1s ease;
 }
 .icono-team .foto img{
   order: 0;
