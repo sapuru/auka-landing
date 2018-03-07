@@ -43,8 +43,8 @@
               <div class="navbar-nav">
                 <a data-scroll class="nav-item nav-link style_link mr-3" href="#scroll_inicio"><span class="icon-home mr-1"></span>Inicio</a>
                 <a data-scroll class="nav-item nav-link style_link mr-3" href="#scroll_servicios"><span class="icon-tools mr-1"></span>Servicios</a>
-                <a data-scroll class="nav-item nav-link style_link mr-3" href="#"><span class="icon-star mr-1"></span>Nosotras</a>
-                <a data-scroll class="nav-item nav-link style_link mr-3" href="#"><span class="icon-suitcase mr-1"></span>Trabajos</a>
+                <a data-scroll class="nav-item nav-link style_link mr-3" href="#scroll_nosotras"><span class="icon-star mr-1"></span>Nosotras</a>
+                <a data-scroll class="nav-item nav-link style_link mr-3" href="#scroll_trabajos"><span class="icon-suitcase mr-1"></span>Trabajos</a>
                 <div>
                   <a data-scroll href="#scroll_consultas" class="btn btn-outline-secondary text-info mt-1 mr-4"><span class="icon-mail mr-1"></span>Contacto</a>
                 </div>
@@ -169,7 +169,7 @@
   <!--NOSOTRAS-->
 
 	<div class="container-fluid nosotras_bg mt-3">
-		<div class="container pb-3">
+		<div class="container pb-3" id="scroll_nosotras">
 			<h4 class="text-white text-center pt-5">Nosotras</h4>
 			<p class="text-white text-center pt-2">Siempre se puede tener un diseño, pero la creatividad en el uso de sus recursos hará que sea único.</p>
 			<p class="text-white text-center pt-2">Conoce al equipo.</p>
@@ -266,98 +266,762 @@
 
 
   <!--TRABAJOS-->
-	<section>
-		<h2 class="text-info text-center mb-3">Trabajos</h2>
+	<section class="container-fluid" id="servicios">
+		<h2 class="text-info text-center mb-5 pt-5">Trabajos</h2>
 		<div class="container">
-			<div class="row my-3">
-				<div class="col view">
-					<img class="img-fluid" src="images/zombie.jpg" alt="">
-					<div class="mask">
-						<h2>Ciudad Zombie</h2>
-						<p>Cuidad Zombie:"¡Huye de los zombies! ¡Que el tren no te alcance!"</p>
-						<a href="/portfolio/Ciudad_zombie-COLQUE/juego.html" class="info">¡A Jugar!</a>
+			<div class="card-columns" id="scroll_trabajos">
+
+				<div class="card trabajos mb-3">
+					<a href="" data-toggle="modal" data-target="#bd-cuidadz-modal-lg">
+					<img src="./images/img-trabajos/zombie.jpg" alt="" class="img-fluid">
+					</a>
+					<div class="card-block">
+						<h4 class="card-title">Card title</h4>
+						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
 				</div>
 
-				<div class="col view">
-					<img class="img-fluid" src="images/rompecabezas.jpg" alt="">
-					<div class="mask">
-						<h2>Rompecabezas</h2>
-						<p>Rompecabezas:"¡Diviértete armando el Rompecabezas!"</p>
-						<a href="/portfolio/Rompecabezas-Lasar/juego.html" class="info">¡A Jugar!</a>
-					</div>
-				</div>
+<!-- Modal -->
 
-				<div class="col view">
-					<img class="img-fluid" src="images/interactivo.jpg" alt="">
-					<div class="mask">
-						<h2>Mapa interactivo</h2>
-						<p>Mapa Interactivo:"Lograrás que encuentren tu negocio, con los Mapas Interactivos"</p>
-						<a href="/portfolio/MapaInteractivoPorMaiaraCercasi/index.html" class="info">¡A Jugar!</a>
-					</div>
+<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-cuidadz-modal-lg">
+	<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+	</button>
+	<div class="modal-dialog modal-lg">
+	<div class="modal-content style_trabajos text-white">
+		<div class="modal-body">
+			<div class="row">
+				<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12">
+					<h5>Título</h5>
+					<p>*Una descripción</p>
+					<p>*Una descripción</p>
+					<p>*Una descripción</p>
+					<p>*Una descripción</p>
+					<p>*Una descripción</p>
+					<hr>
+					<a href="#" class="text-white">"Click aquí para jugar"</a>
+					<hr>
+					<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+					<hr>
 				</div>
-			</div>
-
-			<div class="row my-3">
-				<div class=" col view">
-					<img class="img-fluid" src="images/encuestados.jpg" alt="">
-					<div class="mask">
-						<h2>Encuestados</h2>
-						<p>Encuestados:"Desde el patrón Modelo-Vista-Controlador: ¡monitorea tus encuestas!"</p>
-						<a href="/portfolio/evangelina_oviedo_encuestados/index.html" class="info">¡A Jugar!</a>
-					</div>
-				</div>
-
-				<div class="col view">
-					<img class="img-fluid" src="images/pixel.jpg" alt="">
-					<div class="mask">
-						<h2>Pixel Art</h2>
-						<p>Pixel Art:"¡Edita en línea tus héroes favoritos!"</p>
-						<a href="/portfolio/AlePatti-Pixel-Art/index.html" class="info">¡A Jugar!</a>
-					</div>
-				</div>
-
-				<div class="col view">
-					<img class="img-fluid" src="images/rompecabezas-rec.jpg" alt="">
-					<div class="mask">
-						<h2>Rompecabezas Recargado</h2>
-						<p>Rompecabezas:"¡Te desafíamos a resolver el Rompecabezas...viene Recargado!"</p>
-						<a href="/portfolio/Alejandra-Bravo_Rompecabeza_Recargado/juego.html" class="info">¡A Jugar!</a>
-					</div>
+				<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-content-items-center">
+					<img src="./images/img-trabajos/zombie1.jpg" alt="" class="img-fluid d-none d-sm-block">
 				</div>
 			</div>
-
-			<div class="row my-3">
-				<div class=" col view">
-					<img class="img-fluid" src="images/homebanking.jpg" alt="">
-					<div class="mask">
-						<h2>Home Banking</h2>
-						<p>Home Banking:"¿Quieres saber tu saldo actual o realizar transferencias? Desde este sitio los puedes realizar"</p>
-						<a href="#" class="info">¡A Jugar!</a>
-					</div>
-				</div>
-
-				<div class="col view">
-					<img class="img-fluid" src="images/queveo.jpg" alt="">
-					<div class="mask">
-						<h2>¿Qué veo?</h2>
-						<p>¿Qué veo?:Selecciona tu película favorita en nuestra base de datos"</p>
-						<a href="#" class="info">¡A Jugar!</a>
-					</div>
-				</div>
-
-				<div class="col view">
-					<img class="img-fluid" src="images/peliVspeli.jpg" alt="">
-					<div class="mask">
-						<h2>Peli vs Peli</h2>
-						<p>Proyecto nueve:"Texto descriptivo de este trabajo"</p>
-						<a href="#" class="info">¡A Jugar!</a>
-					</div>
-				</div>
-			</div>
-
 		</div>
+	</div>
+</div>
+</div>
+<!--PROYECTO 2-->
+<div class="card trabajos mb-3">
+	<a href="" data-toggle="modal" data-target="#bd-rompecabezas-modal-lg">
+	<img src="./images/img-trabajos/rompecabezas.jpg" alt="" class="img-fluid">
+	</a>
+	<div class="card-block">
+		<h4 class="card-title">Card title</h4>
+		<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+	</div>
+</div>
+
+<!-- Modal -->
+
+<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-rompecabezas-modal-lg">
+	<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content style_trabajos text-white">
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12">
+						<h5>Título</h5>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<hr>
+						<a href="#" class="text-white">"Click aquí para jugar"</a>
+						<hr>
+						<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+						<hr>
+					</div>
+					<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-items-center">
+						<img src="./images/img-trabajos/rompecabezas1.jpg" alt="" class="img-fluid d-none d-sm-block">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--PROYECTO 3-->
+<div class="card trabajos mb-3">
+	<a href="" data-toggle="modal" data-target="#bd-sitioweb1-modal-lg">
+	<img src="./images/img-trabajos/escuela_verano.jpg" alt="" class="img-fluid">
+	</a>
+	<div class="card-block">
+		<h4 class="card-title">Card title</h4>
+		<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+	</div>
+</div>
+
+<!-- Modal -->
+
+<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-sitioweb1-modal-lg">
+	<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content style_trabajos text-white">
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12">
+						<h5>Título</h5>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<hr>
+						<!-- <a href="#" class="text-white">"Click aquí para ver"</a> -->
+						<hr>
+						<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+						<hr>
+					</div>
+					<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-items-center">
+						<img src="./images/img-trabajos/banner.jpg" alt="" class="img-fluid d-none d-sm-block">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--PROYECTO 4-->
+<div class="card trabajos mb-3">
+	<a href="" data-toggle="modal" data-target="#bd-mapa-modal-lg">
+	<img src="./images/img-trabajos/mapa.jpg" alt="" class="img-fluid">
+	</a>
+	<div class="card-block">
+		<h4 class="card-title">Card title</h4>
+		<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+	</div>
+</div>
+
+<!-- Modal -->
+
+<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-mapa-modal-lg">
+	<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content style_trabajos text-white">
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12">
+						<h5>Título</h5>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<hr>
+						<a href="#" class="text-white">"Click aquí para ver"</a>
+						<hr>
+						<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+						<hr>
+					</div>
+					<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-content-items-center justify-content-end">
+						<img src="./images/img-trabajos/mapa1.jpg" alt="" class="img-fluid d-none d-sm-block">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--PROYECTO 5-->
+<div class="card trabajos mb-3">
+	<a href="" data-toggle="modal" data-target="#bd-encuestados-modal-lg">
+	<img src="./images/img-trabajos/encuestados.jpg" alt="" class="img-fluid">
+	</a>
+	<div class="card-block">
+		<h4 class="card-title">Card title</h4>
+		<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+	</div>
+</div>
+
+<!-- Modal -->
+
+<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-encuestados-modal-lg">
+	<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content style_trabajos text-white">
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12">
+						<h5>Título</h5>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<hr>
+						<a href="#" class="text-white">"Click aquí para ver"</a>
+						<hr>
+						<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+						<hr>
+					</div>
+					<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-content-items-center justify-content-end">
+						<img src="./images/img-trabajos/encuestados1.jpg" alt="" class="img-fluid d-none d-sm-block">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--PROYECTO 6-->
+<div class="card trabajos mb-3">
+	<a href="" data-toggle="modal" data-target="#bd-living-modal-lg">
+	<img src="./images/img-trabajos/living.jpg" alt="" class="img-fluid">
+	</a>
+	<div class="card-block">
+		<h4 class="card-title">Card title</h4>
+		<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+	</div>
+</div>
+
+<!-- Modal -->
+
+<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-living-modal-lg">
+	<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content style_trabajos text-white">
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12">
+						<h5>Título</h5>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<hr>
+						<a href="#" class="text-white">"Click aquí para ver"</a>
+						<hr>
+						<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+						<hr>
+					</div>
+					<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-items-center">
+						<img src="./images/img-trabajos/living1.jpg" alt="" class="img-fluid d-none d-sm-block">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--PROYECTO 7-->
+<div class="card trabajos mb-3">
+	<a href="" data-toggle="modal" data-target="#bd-pixel-modal-lg">
+	<img src="./images/img-trabajos/pixel.jpg" alt="" class="img-fluid">
+	</a>
+	<div class="card-block">
+		<h4 class="card-title">Card title</h4>
+		<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+	</div>
+</div>
+
+<!-- Modal -->
+
+<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-pixel-modal-lg">
+	<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content style_trabajos text-white">
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12">
+						<h5>Título</h5>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<hr>
+						<a href="#" class="text-white">"Click aquí para jugar"</a>
+						<hr>
+						<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+						<hr>
+					</div>
+					<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-content-items-center justify-content-end">
+						<img src="./images/img-trabajos/pixel1.jpg" alt="" class="img-fluid d-none d-sm-block">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!--PROYECTO 8-->
+<div class="card trabajos mb-3">
+	<a href="" data-toggle="modal" data-target="#bd-homeb-modal-lg">
+	<img src="./images/img-trabajos/homebanking.jpg" alt="" class="img-fluid">
+	</a>
+	<div class="card-block">
+		<h4 class="card-title">Card title</h4>
+		<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+	</div>
+</div>
+
+<!-- Modal -->
+
+<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-homeb-modal-lg">
+	<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content style_trabajos text-white">
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12">
+						<h5>Título</h5>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<hr>
+						<a href="#" class="text-white">"Click aquí para ver"</a>
+						<hr>
+						<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+						<hr>
+					</div>
+					<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-items-center">
+						<img src="./images/img-trabajos/homebanking.jpg" alt="" class="img-fluid d-none d-sm-block">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--PROYECTO 9-->
+<div class="card trabajos mb-3">
+	<a href="" data-toggle="modal" data-target="#bd-sitioweb3-modal-lg">
+	<img src="./images/img-trabajos/escuela_verano.jpg" alt="" class="img-fluid">
+	</a>
+	<div class="card-block">
+		<h4 class="card-title">Card title</h4>
+		<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+	</div>
+</div>
+
+<!-- Modal -->
+
+<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-sitioweb3-modal-lg">
+	<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content style_trabajos text-white">
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12">
+						<h5>Título</h5>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<hr>
+						<!-- <a href="#" class="text-white">"Click aquí para ver"</a> -->
+						<hr>
+						<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+						<hr>
+					</div>
+					<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-items-center">
+						<img src="./images/img-trabajos/banner.jpg" alt="" class="img-fluid d-none d-sm-block">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 	</section>
+
+	<!--fin TRABAJOS-->
+
+	<!--TRABAJOS opción 2 sin texto debajo de las cards y background foto-->
+	<section class="container-fluid fondo_trabajos pb-5">
+		<h2 class="text-info text-center mb-5 pt-5">Trabajos(alternativa con foto de fondo y sin textos, depende como se describan los trabajos )</h2>
+		<div class="container">
+			<div class="card-columns">
+
+				<div class="card trabajos mb-3">
+					<a href="" data-toggle="modal" data-target="#bd-cuidadz-modal-lg">
+					<img src="./images/img-trabajos/zombie.jpg" alt="" class="img-fluid">
+					</a>
+				</div>
+
+	<!-- Modal -->
+
+	<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-cuidadz-modal-lg">
+	<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+	</button>
+	<div class="modal-dialog modal-lg">
+	<div class="modal-content style_trabajos text-white">
+		<div class="modal-body">
+			<div class="row">
+				<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12">
+					<h5>Título</h5>
+					<p>*Una descripción</p>
+					<p>*Una descripción</p>
+					<p>*Una descripción</p>
+					<p>*Una descripción</p>
+					<p>*Una descripción</p>
+					<hr>
+					<a href="#" class="text-white">"Click aquí para jugar"</a>
+					<hr>
+					<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+					<hr>
+				</div>
+				<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-content-items-center">
+					<img src="./images/img-trabajos/zombie1.jpg" alt="" class="img-fluid d-none d-sm-block">
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+	<!--PROYECTO 2-->
+	<div class="card trabajos mb-3">
+	<a href="" data-toggle="modal" data-target="#bd-rompecabezas-modal-lg">
+	<img src="./images/img-trabajos/rompecabezas.jpg" alt="" class="img-fluid">
+	</a>
+</div>
+
+	<!-- Modal -->
+
+	<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-rompecabezas-modal-lg">
+	<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+	</button>
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content style_trabajos text-white">
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12">
+						<h5>Título</h5>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<hr>
+						<a href="#" class="text-white">"Click aquí para jugar"</a>
+						<hr>
+						<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+						<hr>
+					</div>
+					<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-items-center">
+						<img src="./images/img-trabajos/rompecabezas1.jpg" alt="" class="img-fluid d-none d-sm-block">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<!--PROYECTO 3-->
+	<div class="card trabajos mb-3">
+	<a href="" data-toggle="modal" data-target="#bd-sitioweb1-modal-lg">
+	<img src="./images/img-trabajos/escuela_verano.jpg" alt="" class="img-fluid">
+	</a>
+	</div>
+
+	<!-- Modal -->
+
+	<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-sitioweb1-modal-lg">
+	<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+	</button>
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content style_trabajos text-white">
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12">
+						<h5>Título</h5>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<hr>
+						<!-- <a href="#" class="text-white">"Click aquí para ver"</a> -->
+						<hr>
+						<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+						<hr>
+					</div>
+					<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-items-center">
+						<img src="./images/img-trabajos/banner.jpg" alt="" class="img-fluid d-none d-sm-block">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<!--PROYECTO 4-->
+	<div class="card trabajos mb-3">
+	<a href="" data-toggle="modal" data-target="#bd-mapa-modal-lg">
+	<img src="./images/img-trabajos/mapa.jpg" alt="" class="img-fluid">
+	</a>
+
+	</div>
+
+	<!-- Modal -->
+
+	<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-mapa-modal-lg">
+	<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+	</button>
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content style_trabajos text-white">
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12">
+						<h5>Título</h5>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<hr>
+						<a href="#" class="text-white">"Click aquí para ver"</a>
+						<hr>
+						<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+						<hr>
+					</div>
+					<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-content-items-center justify-content-end">
+						<img src="./images/img-trabajos/mapa1.jpg" alt="" class="img-fluid d-none d-sm-block">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<!--PROYECTO 5-->
+	<div class="card trabajos mb-3">
+	<a href="" data-toggle="modal" data-target="#bd-encuestados-modal-lg">
+	<img src="./images/img-trabajos/encuestados.jpg" alt="" class="img-fluid">
+	</a>
+
+	</div>
+
+	<!-- Modal -->
+
+	<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-encuestados-modal-lg">
+	<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+	</button>
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content style_trabajos text-white">
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12">
+						<h5>Título</h5>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<hr>
+						<a href="#" class="text-white">"Click aquí para ver"</a>
+						<hr>
+						<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+						<hr>
+					</div>
+					<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-content-items-center justify-content-end">
+						<img src="./images/img-trabajos/encuestados1.jpg" alt="" class="img-fluid d-none d-sm-block">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<!--PROYECTO 6-->
+	<div class="card trabajos mb-3">
+	<a href="" data-toggle="modal" data-target="#bd-living-modal-lg">
+	<img src="./images/img-trabajos/living.jpg" alt="" class="img-fluid">
+	</a>
+
+	</div>
+
+	<!-- Modal -->
+
+	<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-living-modal-lg">
+	<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+	</button>
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content style_trabajos text-white">
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12">
+						<h5>Título</h5>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<hr>
+						<a href="#" class="text-white">"Click aquí para ver"</a>
+						<hr>
+						<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+						<hr>
+					</div>
+					<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-items-center">
+						<img src="./images/img-trabajos/living1.jpg" alt="" class="img-fluid d-none d-sm-block">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<!--PROYECTO 7-->
+	<div class="card trabajos mb-3">
+	<a href="" data-toggle="modal" data-target="#bd-pixel-modal-lg">
+	<img src="./images/img-trabajos/pixel.jpg" alt="" class="img-fluid">
+	</a>
+
+	</div>
+
+	<!-- Modal -->
+
+	<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-pixel-modal-lg">
+	<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+	</button>
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content style_trabajos text-white">
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12">
+						<h5>Título</h5>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<hr>
+						<a href="#" class="text-white">"Click aquí para jugar"</a>
+						<hr>
+						<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+						<hr>
+					</div>
+					<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-content-items-center justify-content-end">
+						<img src="./images/img-trabajos/pixel1.jpg" alt="" class="img-fluid d-none d-sm-block">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+	<!--PROYECTO 8-->
+	<div class="card trabajos mb-3">
+	<a href="" data-toggle="modal" data-target="#bd-homeb-modal-lg">
+	<img src="./images/img-trabajos/homebanking.jpg" alt="" class="img-fluid">
+	</a>
+
+	</div>
+
+	<!-- Modal -->
+
+	<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-homeb-modal-lg">
+	<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+	</button>
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content style_trabajos text-white">
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12">
+						<h5>Título</h5>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<hr>
+						<a href="#" class="text-white">"Click aquí para ver"</a>
+						<hr>
+						<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+						<hr>
+					</div>
+					<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-items-center">
+						<img src="./images/img-trabajos/homebanking.jpg" alt="" class="img-fluid d-none d-sm-block">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<!--PROYECTO 9-->
+	<div class="card trabajos mb-3">
+	<a href="" data-toggle="modal" data-target="#bd-sitioweb3-modal-lg">
+	<img src="./images/img-trabajos/escuela_verano.jpg" alt="" class="img-fluid">
+	</a>
+
+	</div>
+
+	<!-- Modal -->
+
+	<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-sitioweb3-modal-lg">
+	<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+	</button>
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content style_trabajos text-white">
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12">
+						<h5>Título</h5>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<p>*Una descripción</p>
+						<hr>
+						<!-- <a href="#" class="text-white">"Click aquí para ver"</a> -->
+						<hr>
+						<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+						<hr>
+					</div>
+					<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-items-center">
+						<img src="./images/img-trabajos/banner.jpg" alt="" class="img-fluid d-none d-sm-block">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</section>
 
 	<!--fin TRABAJOS-->
 
@@ -385,7 +1049,7 @@
   <!--FOOTER Y FORMULARIO DE CONTACTO-->
 
   <footer class="container-fluid mt-5 style_footer">
-	<div class="row justify-content-between">
+	<div class="row justify-content-between" id="scroll_consultas">
 
 		<div class="col-lg-3 col-md-5 logo_nav mt-3 ml-3 text-center">
 			<img src="images/auka-sin-escudo.png" class="img-fluid" alt="Logo de auKa">
