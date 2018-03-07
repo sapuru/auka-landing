@@ -104,7 +104,9 @@ figcaption {
 .redes-sociales .twitter {background: #1da1f2;}
 .redes-sociales .facebook {background: #3b5998;}
 .redes-sociales .instagram {background: #833ab4;}
-
+footer p{
+  font-size: 15px;
+}
 /* SECCION TRABAJOS*/
 .view {
    /*width: 300px;
