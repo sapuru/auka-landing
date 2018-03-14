@@ -6,7 +6,7 @@
 }
 
 .style_nav, .style_footer {
-  background-color: #245661;
+  background-color: #041f26;
 }
 
 .style_link {
@@ -18,7 +18,7 @@
 }
 
 .style_link:focus, .style_link:hover {
-  color: #C63A79;
+  color: #EC5B7E;
   transition: all 1.5s ease-out;
   transform: scale(1.1);
 }
@@ -89,10 +89,10 @@ figcaption {
 }
 
 .redes-sociales .icono {
-  width: 50px;
-	height: 50px;
-	font-size: 30px;
-	line-height: 50px;
+  width: 40px;
+	height: 40px;
+	font-size: 20px;
+	line-height: 40px;
 	color: #fff;
 	text-align: center;
 	display: inline-block;
@@ -105,22 +105,14 @@ figcaption {
 .redes-sociales .facebook {background: #3b5998;}
 .redes-sociales .instagram {background: #833ab4;}
 footer p{
-  font-size: 15px;
+  font-size: 14px;
 }
 
 /* SECCION TRABAJOS*/
 .style_trabajos {
-  background: rgba(15, 67, 84, 0.8);
+  background: rgba(4, 31, 38, 0.8);
 }
 
-.trabajos:hover {
-background: rgba(15, 67, 84, 0.5);
-transition: 1.5s linear ;
-transform: scale(0.97);
-
-}
-.fondo_trabajos {
-  background: url("../images/fondo_trabajos.jpg")no-repeat center center;
-  background-size: cover;
-  margin-top: 0;
+.fondo_trabajos, .form_smart {
+  background-color: #C4C2C3;
 }
