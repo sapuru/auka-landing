@@ -1,33 +1,59 @@
-body{
-  font-size: 14px;
-font-family: 'Poppins';
+
+body {
+
+  font-family: 'Poppins', sans-serif;
 }
+
 .style_banner_header {
-  background: url("../images/header-bg.png")no-repeat fixed center center;
+
+  background: url("../img/img-header/header.jpg")no-repeat fixed center center;
   background-size: cover;
   margin-top: 0;
 }
 
 .style_nav, .style_footer {
-  background-color: #041f26;
+
+  background-color: rgb(4, 31, 38);
 }
 
 .style_link {
-  font-family: 'Poppins', sans-serif;
+
   padding-top: 5px;
   padding-bottom: 5px;
   margin-top: 8px;
   color: white;
 }
 
+.style_carousel {
+
+  color: rgb(159, 67, 90);
+}
+
+.font_blanco {
+
+  color: rgb(25, 25, 25);
+}
+
+.style_servicios_h4 {
+
+  color: rgb(49, 95, 132);
+}
+
 .style_link:focus, .style_link:hover {
-  color: #EC5B7E;
+
+  color: rgb(236, 91, 126);
   transition: all 1.5s ease-out;
   transform: scale(1.1);
 }
 
+button:focus {
+
+  outline: 0;
+}
+
 .icon-menu {
-  color: #f2f2f2;
+
+  color: rgb(242, 242, 242);
   font-size: 35px;
 }
 
@@ -36,95 +62,134 @@ font-family: 'Poppins';
 }
 
 .logo_nav img {
+
   width: 100px;
   height: 50px;
 }
 
 .iconos_hero img {
+
   width: 85px;
   height: 80px;
 }
 
 .logo_header img {
+
   width: 320px;
   height: 300px;
 }
 
-.color_titulo {
-  color: #eb5b7e;
-} /*Con esto intento cambiar el color al título Visión pero no lo hace */
-
-#servicios {
-    background: url(../graficos/grilla-fondo-sobre-blanco.png);
-}
 .servicios {
-    background: url(../graficos/fondoservicio.png);
+
+  background: url("../img/img-servicios/grilla-fondo-sobre-blanco.png")no-repeat center;
+  background-size: cover;
 }
+
 .nosotras_bg {
-background: url(../graficos/grilla-fondo-azul.png)no-repeat center;;
-background-size: cover;
+
+  background: url("../img/img-nosotras/grilla-fondo-azul.png")no-repeat center;
+  background-size: cover;
 }
 
-[class^='icono-team']
-figcaption, [class*=' icono-team']
-figcaption {
-    opacity: 0;
+.icono-team  {
+
+  position: relative;
+  overflow: hidden;
 }
 
-[class^='icono-team']:hover > img, [class*='icono-team']:hover > img {
-    opacity: 0;
+.imagen {
+
+  transition: all 0.7s;
 }
 
-[class^='icono-team']:hover figcaption, [class*='icono-team']:hover figcaption {
-    opacity: 1;
+.content-img  {
+
+  position: absolute;
+  bottom: 0;
+  transform: translateX(100%);
+  transition: all 0.6s ease-out;
 }
 
-[class^='icono-team']:hover > img, [class^='icono-team']:hover figcaption, [class*='icono-team']:hover > img, [class*='icono-team']:hover figcaption {
-    -webkit-transform: translate(0, 0);
-    -moz-transform: translate(0, 0);
-    -ms-transform: translate(0, 0);
-    -o-transform: translate(0, 0);
-    transform: translate(0, 0);
-    transition: all 1s ease;
+.icono-team:hover .content-img {
+
+  transform: translateX(0%);
 }
-.icono-team .foto img{
-  order: 0;
+
+.foto {
+
   border-radius: 50%;
-  transform: translateY(-170px);
 }
 
 .redes-sociales .icono {
+
   width: 40px;
 	height: 40px;
 	font-size: 20px;
 	line-height: 40px;
-	color: #fff;
+	color: rgb(242, 242, 242);
 	text-align: center;
 	display: inline-block;
 	margin: 0px 20px;
   text-decoration: none;
 	border-radius: 100px;
-
-}
-.redes-sociales .twitter {background: #1da1f2;}
-.redes-sociales .facebook {background: #3b5998;}
-.redes-sociales .instagram {background: #833ab4;}
-footer p{
-  font-size: 14px;
-  font-family: 'Poppins';
 }
 
-/* SECCION TRABAJOS*/
+.redes-sociales .twitter {background: rgb(29, 161, 242);}
+.redes-sociales .facebook {background: rgb(59, 89, 152);}
+.redes-sociales .instagram {background: rgb(131, 58, 180);}
+
+footer .p_m {
+
+  font-size: 12px;
+}
+
+footer p {
+
+  font-size: 13px;
+}
+
 .style_trabajos {
+
   background: rgba(4, 31, 38, 0.8);
 }
 
-.fondo_trabajos, .form_smart {
-  background-color: #C4C2C3;
+.fondo_trabajos, .formulario_dispositivos  {
+
+  background-color: rgb(196, 195, 194);
 }
-/* Cuando la pantalla este en tamanio minimo, que se agranden las letras */
+
+.fondotrabajos {
+
+  background: url("../img/img-trabajos/bg-trabajos.jpg")no-repeat fixed center center;
+  background-size: cover;
+  margin-top: 0;
+}
+
+.fondotrabajos_container {
+
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.style_somos {
+
+  background-color: rgb(196, 195, 194);
+}
+
 @media only screen and (max-width: 600px) {
-    body{
+
+    body {
       font-size: 18px;
+    }
+
+    .slider {
+      font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .nosotras {
+
+      font-size: 9px;
     }
 }

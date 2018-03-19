@@ -2,644 +2,575 @@
 
 <html lang="es">
 
-<head>
+	<head>
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Auka, Desarrollo y creación de páginas Web</title>
-	<meta name="description" content="Desarrollo de páginas Web, Landing Page, Sitios Institucionales, Maquetado">
-	<meta name="keywords" content="Creación de páginas Web, ">
-	<meta name="autor" content="Auka">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<title>Auka, Desarrollo y creación de páginas Web</title>
+		<meta name="description" content="Desarrollo de páginas Web, Landing Page, Sitios Institucionales, Apliciones Web">
+		<meta name="keywords" content="Creación de páginas Web, desarrollo web">
+		<meta name="autor" content="Auka">
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="fonts/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Kanit:400,600,700|Mukta+Malar:400,500,600|Noto+Sans:400,700|Playfair+Display:400,700|Poppins:300,400|Raleway:400,500" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="fonts/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400" rel="stylesheet">
 
-	<script src="js/smooth-scroll.min.js"></script>
-	<script src="js/efecto_smooth.js"></script>
+		<script src="js/smooth-scroll.min.js"></script>
+		<script src="js/efecto_smooth.js"></script>
 
-</head>
+	</head>
 
-<body>
+	<body>
 
-  <header class="container-fluid style_banner_header" id="scroll_inicio">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <nav id="menu" class="navbar navbar-toggleable-md style_nav bg-tranparent fixed-top">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar icon-menu"></span>
-              </button>
-            <div class="col-4 mt-2 mb-1 logo_nav">
-              <a class="navbar-brand" href="index.html">
-                  <img src="images/auka-sin-escudo.png" class="d-block" alt="Logo de Auka">
-                </a>
-            </div>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-              <div class="navbar-nav">
-                <a data-scroll class="nav-item nav-link style_link mr-3" href="#scroll_inicio"><span class="icon-home mr-1"></span>Inicio</a>
-                <a data-scroll class="nav-item nav-link style_link mr-3" href="#scroll_servicios"><span class="icon-tools mr-1"></span>Servicios</a>
-                <a data-scroll class="nav-item nav-link style_link mr-3" href="#scroll_nosotras"><span class="icon-star mr-1"></span>Nosotras</a>
-                <a data-scroll class="nav-item nav-link style_link mr-3" href="#scroll_trabajos"><span class="icon-suitcase mr-1"></span>Trabajos</a>
-                <div>
-                  <a data-scroll href="#scroll_consultas" class="btn btn-outline-secondary text-info mt-1 mr-4"><span class="icon-mail mr-1"></span>Contacto</a>
-                </div>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </div>
-      <div class="row justify-content-between mt-5 pt-5">
-        <div class="col-lg-6 col-md-6 col-sm-12 mt-5 pt-5">
-          <h1 class="text-center text-white pb-2 mt-3">Auka Tech</h1>
-          <p class="text-white pt-3">Somos grupo de mujeres autogestionadas para brindar servicios de Desarrollo Web.</p>
-			    <p class="text-white pt-3">Tomamos nuestro nombre del mapuche Auka que significa “guerrera”. Nuestro equipo lo conforman mujeres de distintas edades y profesiones.
-					</p>
-				</div>
-        <div class="col-lg-4 col-md-4 col-sm-12 mt-5 pt-5 justify-content-center">
-          <img src="images/logo-sobre-fondo-oscuro.png" class="img-fluid logo_header" alt="Escudo Auka">
-        </div>
-      </div>
-      <div class="row mt-5 pt-4 pb-3 iconos_hero text-center justify-content-between">
-          <figure class="col figure mr-3">
-            <img src="images/iconos-hero.png" class="figure-img img-fluid" alt="Lanza de mujer guerrera">
-            <figcaption class="figure-caption text-white">Desarrollo Web, derribando estereotipos.</figcaption>
-          </figure>
-          <figure class="col figure mr-3">
-            <img src="images/iconos-hero-2.png" class="figure-img img-fluid" alt="Creatividad, perspectiva femenina">
-            <figcaption class="figure-caption text-white">Diversidad y creatividad.</figcaption>
-          </figure>
-          <figure class="col figure mr-3">
-            <img src="images/iconos-hero-4.png" class="figure-img img-fluid" alt="Habilidades para el desarrollo Web">
-            <figcaption class="figure-caption text-white">Herramientas, habilidades y recursos.</figcaption>
-          </figure>
-      </div>
-    </div>
-  </header>
-
-  <!--SLIDER O CAROUSEL-->
-  <div id="carouselExampleIndicators" class="carousel slide mt-1" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100 img-fluid img-responsive" src="graficos/fondo-carrusel.png" alt="First slide">
-        <div class="carousel-caption d-none d-block"> <!--Cambié d-md-block por d-block para que las letras no despaparecieran cuando achicaba la pantalla-->
-          <h3 class=" mb-4 font-weight-bold text-danger">Misión</h3>
-          <p class="text-muted">Queremos ser el motivo por el cual los proyectos de nuestros clientes sean exitosos.</p>
-        </div>
-      </div>
-      <div class="carousel-item bg-primary">
-          <img class="d-block w-100" src="graficos/fondo-carrusel.png" alt="Second slide">
-          <div class="carousel-caption d-none d-block">
-            <h3 class=" mb-4 font-weight-bold text-danger ">Visión</h3>
-            <p class="text-muted">Aportamos nuestra perspectiva, haciendo realidad tus proyectos.</p>
-          </div>
-      </div>
-      <div class="carousel-item">
-          <img class="d-block w-100" src="graficos/fondo-carrusel.png" alt="Third slide">
-          <div class="carousel-caption d-none d-block"><!--color_titulo comente esta clase por el color de los titulos-->
-            <h3 class=" mb-4 font-weight-bold text-danger">Valores</h3>
-						<p class="text-muted">Compromiso - Creatividad - Responsabilidad - Confidencialidad.</p>
-          </div>
-      </div>
-    </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <!--Esto lo comenté para que no se vean las flechas de los costados-->
-        <!--<span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <!--<span class="carousel-control-next-icon" aria-hidden="true"></span>-->
-        <span class="sr-only">Next</span>
-      </a>
-  </div>
-
-  <!--SERVICIOS-->
-  <section class="container-fluid mt-3 pt-3 servicios"  id="servicios"> <!-- hay 2 servicios (clase y id)porque Eva utilizo el id y yo la clase-->
-
-    <div class="row" id="scroll_servicios ">
-  <div class="col-12">
-  <!--servicio, trabajos y somos irá con un h que sea relevante-->
-
-	<h2 class=" text-center">Servicios</h2>
-  </div>
-  </div>
-  <div class="row mt-2 ml-5 mb-2 justify-content-center">
-            <div class="col-sm-5 text-center">
-              <img class="card-img img-fluid" src="graficos/icono-maquetado.png" class="figure-img img-fluid rounded" alt="icono maquetado web">
-                <h4  class="text-center">Maquetado y desarollo web</h4>
-								<p>Le damos forma a tu idea de negocio.<p/>
-
-           </div>
-      <div class="col-sm-4 text-center .offset-md-4">
-           <img class="card-img img-fluid" src="graficos/icono-landing-pages-achicado.png" class="figure-img img-fluid rounded " alt="icono landing pages">
-
-           <h4 class="text-center">Landing pages</h4>
-						 <p>diseñadas para generar impacto.<p/>
-      </div>
-
-  <div class="w-100"></div>
-      <div class="col-sm-5 text-center .offset-md-4 mt-3">
-           <img class="card-img img-fluid" src="graficos/icono-sitios-institucionales.png" class="figure-img img-fluid rounded" alt="icono sitios institucionales">
-           <h4 class="text-center">Sitios institucionales</h4>
-					 <p>Creamos tu página para que esté en internet.<p/>
-			</div>
-
-      <div class="col-sm-4 text-center mt-3">
-           <img class="card-img img-fluid" src="graficos/icono-web-apps.png" class="figure-img img-fluid rounded" alt="icono web apps">
-           <h4 class="text-center">Web Apps</h4>
-						 <p>Desarrollamos la aplicación a la medida de tu sitio.<p/>
-    </div>
-    </div><!-- del conteiner general de servicios -->
-</section>
-  <!--NOSOTRAS-->
-
-	<div class="container-fluid nosotras_bg mt-3 d-none d-sm-block">
-		<div class="container pb-3" id="scroll_nosotras">
-			<h2 class="text-white text-center pt-5">Nosotras</h2>
-			<p class="text-white text-center pt-2">Siempre se puede tener un diseño, pero la creatividad en el uso de sus recursos hará que sea único.</p>
-			<p class="text-white text-center pt-2">Conoce al equipo.</p>
-
-			<div class="row">
-
-				<div class="col d-flex justify-content-center pt-5">
-					<figure class="figure icono-team  pt-5">
-						<img src="graficos/icono-evangelina.png" class="figure-img img-fluid" alt="">
-						<p class="text-white text-center">Eva Oviedo</p>
-						<figcaption class="figure-caption text-primary foto">
-							<a href="#"><img src="graficos/evangelina-auka.png" class="figure-img img-fluid foto" alt=""></a>
-						</figcaption>
-					</figure>
-				</div>
-				<div class="col d-none d-md-block mt-5">
-					<img src="graficos/guerrera-sable-grande.png" class="img-fluid" alt="">
-				</div>
-
-				<div class="col d-flex justify-content-center pt-5">
-					<figure class="figure icono-team pt-5">
-						<img src="graficos/icono-ale-bravo.png" class="figure-img img-fluid" alt="">
-						<p class="text-white text-center">Alejandra Bravo</p>
-						<figcaption class="figure-caption text-primary foto">
-							<a href="#"><img src="graficos/alebravo-auka.png" class="figure-img img-fluid foto" alt=""></a>
-						</figcaption>
-					</figure>
-				</div>
-				<div class="col d-none d-md-block pt-5">
-					<img src="graficos/guerrera-baston-grande.png" class="img-fluid" alt="...">
-				</div>
-
-				<div class="col d-flex justify-content-center pt-5">
-					<figure class="figure icono-team pt-5">
-						<img src="graficos/icono-maiara.png" class="figure-img img-fluid" alt="">
-						<p class="text-white text-center">Maiara Cercasi</p>
-						<figcaption class="figure-caption text-primary foto">
-							<a href="#"><img src="graficos/maiara-auka.png" class="figure-img img-fluid foto" alt=""></a>
-						</figcaption>
-					</figure>
-				</div>
-				<div class="col-2 d-none d-md-block pt-5">
-					<img src="graficos/guerrera-sable.png" class="img-fluid" alt="...">
-				</div>
-
-			</div>
-
-			<div class="row">
-
-				<div class="col d-flex justify-content-center pt-5">
-					<figure class="figure icono-team">
-						<img src="graficos/icono-ale-patti.png" class="figure-img img-fluid" alt="">
-						<p class="text-white text-center">Alejandra Patti</p>
-						<figcaption class="figure-caption text-primary foto">
-							<a href="#"><img src="graficos/alepatti-auka.png" class="figure-img img-fluid foto" alt=""></a>
-						</figcaption>
-					</figure>
-				</div>
-				<div class="col d-none d-md-block">
-					<img src="graficos/guerrera-sable-grande.png" class="img-fluid" alt="">
-				</div>
-
-				<div class="col d-flex justify-content-center pt-5">
-					<figure class="figure icono-team">
-						<img src="graficos/icono-paula.png" class="figure-img img-fluid" alt="">
-						<p class="text-white text-center">Paula Colque</p>
-						<figcaption class="figure-caption text-primary foto">
-							<a href="#"><img src="graficos/paula-auka.png" class="figure-img img-fluid foto" alt=""></a>
-						</figcaption>
-					</figure>
-				</div>
-				<div class="col d-none d-md-block">
-					<img src="graficos/guerrera-baston-grande.png" class="img-fluid" alt="...">
-				</div>
-
-				<div class="col d-flex justify-content-center pt-5">
-					<figure class="figure icono-team">
-						<img src="graficos/icono-silvina.png" class="figure-img img-fluid" alt="">
-						<p class="text-white text-center">Silvina Lasar</p>
-						<figcaption class="figure-caption text-primary foto">
-							<a href="#"><img src="graficos/silvina-auka.png" class="figure-img img-fluid foto" alt=""></a>
-						</figcaption>
-					</figure>
-				</div>
-				<div class="col d-none d-md-block">
-					<img src="graficos/guerrera-sable-grande.png" class="img-fluid" alt="...">
-				</div>
-			</div>
-
-		</div>
-
-	</div>
-
-<!--TRABAJOS-->
-<section class="container-fluid fondo_trabajos pb-5 d-none d-sm-block">
-	<h2 class="text-info text-center mb-5 pt-5">Trabajos</h2>
-	<div class="container" id="scroll_trabajos">
-		<div class="card-columns">
-
-			<div class="card trabajos mb-3">
-				<a href="" data-toggle="modal" data-target="#bd-cuidadz-modal-lg">
-					<img src="./images/img-trabajos/zombie.jpg" alt="" class="img-fluid">
-					</a>
-			</div>
-
-			<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-cuidadz-modal-lg">
-				<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
-	<span aria-hidden="true">&times;</span>
-	</button>
-				<div class="modal-dialog modal-lg">
-					<div class="modal-content style_trabajos text-white">
-						<div class="modal-body">
-							<div class="row">
-								<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12">
-									<h5>Título</h5>
-									<p>*Una descripción</p>
-									<p>*Una descripción</p>
-									<p>*Una descripción</p>
-									<p>*Una descripción</p>
-									<p>*Una descripción</p>
-									<hr>
-									<a href="#" class="text-white">"Click aquí para jugar"</a>
-									<hr>
-									<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
-									<hr>
+			<header class="container-fluid style_banner_header" id="scroll_inicio">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<nav id="menu" class="navbar navbar-toggleable-md style_nav bg-tranparent fixed-top">
+								<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+											<span class="icon-menu d-none d-md-block"></span>
+										</button>
+								<a class="navbar-brand mt-2 mb-1 ml-3 logo_nav" href="index.html">
+											<img src="img/img-header/auka-sin-escudo.png" class="d-block" alt="Logo de Auka">
+										</a>
+								<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+									<div class="navbar-nav">
+										<a data-scroll class="nav-item nav-link style_link mr-3" href="#scroll_inicio"><span class="icon-home mr-1"></span>Inicio</a>
+										<a data-scroll class="nav-item nav-link style_link mr-3" href="#scroll_servicios"><span class="icon-tools mr-1"></span>Servicios</a>
+										<a data-scroll class="nav-item nav-link style_link mr-3" href="#scroll_nosotras"><span class="icon-star mr-1"></span>Nosotras</a>
+										<a data-scroll class="nav-item nav-link style_link mr-3" href="#scroll_trabajos"><span class="icon-suitcase mr-1"></span>Trabajos</a>
+										<div>
+											<a data-scroll href="#scroll_consultas" class="btn btn-outline-secondary text-info mt-1 mr-4"><span class="icon-mail mr-1"></span>Contacto</a>
+										</div>
+									</div>
 								</div>
-								<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-content-items-center">
-									<img src="./images/img-trabajos/zombie1.jpg" alt="" class="img-fluid d-none d-sm-block">
-								</div>
-							</div>
+							</nav>
 						</div>
 					</div>
+					<div class="row justify-content-between mt-5 pt-5">
+						<div class="col-lg-6 col-md-6 col-sm-12 mt-5 pt-5">
+							<h1 class="text-center text-white pb-2 mt-3">Auka Tech</h1>
+							<p class="text-white text-center pt-3">Somos un grupo de mujeres autogestionadas que brindamos servicios de Desarrollo Web</p>
+							<p class="text-white text-center pt-3">"Auka" en lengua mapuche que significa “guerrera”. Nuestro equipo lo conforman mujeres de distintas edades y profesiones</p>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-12 mt-5 pt-5 justify-content-center">
+							<img src="img/img-header/logo-sobre-fondo-oscuro.png" class="img-fluid logo_header" alt="Escudo de Auka">
+						</div>
+					</div>
+					<div class="row mt-5 pt-4 pb-3 iconos_hero text-center justify-content-around">
+						<figure class="col figure">
+							<img src="img/img-header/iconos-hero.png" class="figure-img img-fluid" alt="Lanza de mujer guerrera">
+							<figcaption class="figure-caption text-white">Derribando estereotipos</figcaption>
+						</figure>
+						<figure class="col figure">
+							<img src="img/img-header/iconos-hero-2.png" class="figure-img img-fluid" alt="Creatividad, perspectiva femenina">
+							<figcaption class="figure-caption text-white">Diversidad y creatividad</figcaption>
+						</figure>
+						<figure class="col figure">
+							<img src="img/img-header/iconos-hero-4.png" class="figure-img img-fluid" alt="Habilidades, desarrollo Web">
+							<figcaption class="figure-caption text-white">Herramientas, habilidades y recursos</figcaption>
+						</figure>
+					</div>
 				</div>
-			</div>
-			<!--PROYECTO 2-->
-			<div class="card trabajos mb-3">
-				<a href="" data-toggle="modal" data-target="#bd-rompecabezas-modal-lg">
-	<img src="./images/img-trabajos/rompecabezas.jpg" alt="" class="img-fluid">
-	</a>
-			</div>
+			</header>
 
-			<!-- Modal -->
-
-			<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-rompecabezas-modal-lg">
-				<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
-	<span aria-hidden="true">&times;</span>
-	</button>
-				<div class="modal-dialog modal-lg">
-					<div class="modal-content style_trabajos text-white">
-						<div class="modal-body">
-							<div class="row">
-								<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12">
-									<h5>Título</h5>
-									<p>*Una descripción</p>
-									<p>*Una descripción</p>
-									<p>*Una descripción</p>
-									<p>*Una descripción</p>
-									<p>*Una descripción</p>
-									<hr>
-									<a href="#" class="text-white">"Click aquí para jugar"</a>
-									<hr>
-									<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
-									<hr>
-								</div>
-								<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-items-center">
-									<img src="./images/img-trabajos/rompecabezas1.jpg" alt="" class="img-fluid d-none d-sm-block">
-								</div>
-							</div>
+			<div id="carouselAuka" class="carousel slide slider" data-ride="carousel" data-target="carouselAuka">
+				<ol class="carousel-indicators">
+					<li data-target="#carouselAuka" data-slide-to="0" class="active"></li>
+					<li data-target="#carouselAuka" data-slide-to="1"></li>
+					<li data-target="#carouselAuka" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="img/img-carousel/fondo-carrusel.png" class="d-block w-100 img-fluid" alt="Misión">
+						<div class="carousel-caption">
+							<h3 class="style_carousel">Misión</h3>
+							<p class="text-muted">Insertar tu esencia en la web para que tu idea alcance el éxito</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="img/img-carousel/fondo-carrusel.png" class="d-block w-100 img-fluid" alt="Visión">
+						<div class="carousel-caption">
+							<h3 class="style_carousel">Visión</h3>
+							<p class="text-muted">Aportamos nuestra perspectiva, haciendo realidad tus proyectos</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="img/img-carousel/fondo-carrusel.png" class="d-block w-100 img-fluid" alt="Valores">
+						<div class="carousel-caption">
+							<h3 class="style_carousel">Valores</h3>
+							<p class="text-muted">Compromiso, Responsabilidad, Confidencialidad</p>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<!--PROYECTO 3-->
+		<main>
+			<section class="container-fluid servicios" id="scroll_servicios">
+				<h2 class=" text-center pt-5 font_blanco">Servicios</h2>
+				<div class="container">
+					<div class="row justify-content-around mt-5">
+						<figure class="figure col-lg-5 col-md-5 col-sm-12 text-center">
+							<img src="img/img-servicios/icono-maquetado.png" class="figure-img img-fluid" alt="icono maquetado web">
+							<figcaption class="figure-caption">
+								<h4 class="style_servicios_h4 pt-3 pb-1">Desarollo web</h4>
+							</figcaption>
+							<figcaption class="figure-caption">
+								<p>Contamos con variedad de herramientas de programación. Un buen desarrollo ajustado a las necesidades de tu sitio. Optimizado para dispositivos móviles</p>
+								<p>Le damos forma a tu idea de negocio</p>
+							</figcaption>
+						</figure>
+						<figure class="figure col-lg-5 col-md-5 col-sm-12 text-center">
+							<img src="img/img-servicios/icono-landing-page.png" class="figure-img img-fluid" alt="icono landing pages">
+							<figcaption class="figure-caption">
+								<h4 class="style_servicios_h4 pt-3 pb-1">Landing pages</h4>
+							</figcaption>
+							<figcaption class="figure-caption">
+								<p>Sitios simples de una sola página. Información reducida pero efectiva. Elemento clave para convertir visitas en suscriptores o clientes</p>
+								<p>Diseñadas para generar impacto</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="row justify-content-around mt-2">
+						<figure class="figure col-lg-5 col-md-5 col-sm-12 text-center mb-5">
+							<img src="img/img-servicios/icono-sitios-institucionales.png" class="figure-img img-fluid" alt="icono sitios institucionales">
+							<figcaption class="figure-caption">
+								<h4 class="style_servicios_h4 pt-3 pb-1">Sitios institucionales</h4>
+							</figcaption>
+							<figcaption class="figure-caption">
+								<p>Describe las actividades y datos claves de tu organización. Suministra a los clientes información necesaria.</p>
+								<p>Creamos tu página, para que posicionada en internet, llegues a más clientes</p>
+							</figcaption>
+						</figure>
+						<figure class="figure col-lg-5 col-md-5 col-sm-12 text-center mb-5">
+							<img src="img/img-servicios/icono-web-apps.png" class="figure-img img-fluid" alt="icono sitios institucionales">
+							<figcaption class="figure-caption">
+								<h4 class="style_servicios_h4 pt-3 pb-1">Web Apps</h4>
+							</figcaption>
+							<figcaption class="figure-caption">
+								<p>Se trata de programas diseñados para: gestionar cantidad de datos, localizar y compartir información de forma rápida y sencilla con los usuarios de tu sitio.</p>
+								<p>Desarrollamos la aplicación a tu medida</p>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</section>
 
-			<div class="card trabajos mb-3">
-				<a href="" data-toggle="modal" data-target="#bd-mapa-modal-lg">
-	<img src="./images/img-trabajos/mapa.jpg" alt="" class="img-fluid">
-	</a>
-
-			</div>
-
-			<!-- Modal -->
-
-			<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-mapa-modal-lg">
-				<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
-	<span aria-hidden="true">&times;</span>
-	</button>
-				<div class="modal-dialog modal-lg">
-					<div class="modal-content style_trabajos text-white">
-						<div class="modal-body">
-							<div class="row">
-								<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12">
-									<h5>Título</h5>
-									<p>*Una descripción</p>
-									<p>*Una descripción</p>
-									<p>*Una descripción</p>
-									<p>*Una descripción</p>
-									<p>*Una descripción</p>
-									<hr>
-									<a href="#" class="text-white">"Click aquí para ver"</a>
-									<hr>
-									<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
-									<hr>
+			<section class="container-fluid nosotras_bg d-none d-md-block">
+				<div class="container">
+					<h2 class="text-white text-center pt-5" id="scroll_nosotras">Nosotras</h2>
+					<p class="text-white text-center pt-3">"Siempre se puede tener un diseño pero la creatividad en el uso de sus recursos hará que sea único."</p>
+					<p class="text-white text-center pt-3">Conoce al equipo</p>
+					<div class="row mt-5">
+						<div class="col mt-2">
+							<p class="text-white text-center small nosotras">Evangelina Oviedo</p>
+							<div class="figure icono-team">
+								<img src="img/img-nosotras/icono-evangelina.png" class="img-fluid imagen">
+								<div class="content-img">
+									<img src="img/img-nosotras/evangelina-auka.png" class="img-fluid foto">
 								</div>
-								<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-content-items-center justify-content-end">
-									<img src="./images/img-trabajos/mapa1.jpg" alt="" class="img-fluid d-none d-sm-block">
+							</div>
+						</div>
+						<div class="col mt-2">
+							<img src="img/img-nosotras/guerrera-sable-sl.png" class="img-fluid">
+						</div>
+						<div class="col mt-2">
+							<p class="text-white text-center small nosotras">Alejandra Bravo</p>
+							<div class="figure icono-team">
+								<img src="img/img-nosotras/icono-ale-bravo.png" class="img-fluid imagen">
+								<div class="content-img">
+									<img src="img/img-nosotras/alebravo-auka.png" class="img-fluid foto">
+								</div>
+							</div>
+						</div>
+						<div class="col mt-2">
+							<img src="img/img-nosotras/guerrera-espada-sl.png" class="img-fluid">
+						</div>
+						<div class="col mt-2">
+							<p class="text-white text-center small nosotras">Maiara Cercasi</p>
+							<div class="figure icono-team">
+								<img src="img/img-nosotras/icono-maiara.png" class="img-fluid imagen">
+								<div class="content-img">
+									<img src="img/img-nosotras/maiara-auka.png" class="img-fluid foto">
+								</div>
+							</div>
+						</div>
+						<div class="col mt-2">
+							<img src="img/img-nosotras/guerrera-lanza-sl.png" class="img-fluid">
+						</div>
+					</div>
+					<div class="row mt-5 pb-5">
+						<div class="col mt-2 pb-4">
+							<p class="text-white text-center small nosotras">Alejandra Patti</p>
+							<div class="figure icono-team">
+								<img src="img/img-nosotras/icono-ale-patti.png" class="img-fluid imagen">
+								<div class="content-img">
+									<img src="img/img-nosotras/alepatti-auka.png" class="img-fluid foto">
+								</div>
+							</div>
+						</div>
+						<div class="col mt-2 pb-4">
+							<img src="img/img-nosotras/guerrera-sable-sl.png" class="img-fluid">
+						</div>
+						<div class="col mt-2 pb-4">
+							<p class="text-white text-center small nosotras">Paula Colque</p>
+							<div class="figure icono-team">
+								<img src="img/img-nosotras/icono-paula.png" class="img-fluid imagen">
+								<div class="content-img">
+									<img src="img/img-nosotras/paula-auka.png" class="img-fluid foto">
+								</div>
+							</div>
+						</div>
+						<div class="col mt-2 pb-4">
+							<img src="img/img-nosotras/guerrera-baston-sl.png" class="img-fluid">
+						</div>
+						<div class="col mt-2 pb-4">
+							<p class="text-white text-center small nosotras">Silvina Lasar</p>
+							<div class="figure icono-team">
+								<img src="img/img-nosotras/icono-silvina.png" class="img-fluid imagen">
+								<div class="content-img">
+									<img src="img/img-nosotras/silvina-auka.png" class="img-fluid foto">
+								</div>
+							</div>
+						</div>
+						<div class="col mt-2 pb-4">
+							<img src="img/img-nosotras/guerrera-sable-sl.png" class="img-fluid">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="container-fluid fondotrabajos  d-none d-md-block" id="scroll_trabajos">
+				<div class="container fondotrabajos_container">
+					<h2 class="text-center pt-5 fondo_blanco">Trabajos</h2>
+					<div class="card-columns px-5 py-5">
+						<div class="card trabajos mb-3">
+							<a href="" data-toggle="modal" data-target="#bd-cuidadz-modal-lg">
+								<img src="img/img-trabajos/zombie.jpg" alt="imagen juego zombie" class="img-fluid">
+							</a>
+						</div>
+						<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-cuidadz-modal-lg">
+							<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+							</button>
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content style_trabajos text-white">
+									<div class="modal-body">
+										<div class="row">
+											<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12 small">
+												<h5>Ciudad Zombie</h5>
+												<p>El juego consiste en llegar a la meta.</p>
+												<p>¡Huye de los zombies! ¡Que el tren no te alcance!</p>
+												<p>En esta aplicación web utilizamos:</P>
+												<p>HTML5 - CSS3 - JS - JQ </p>
+												<p>Realizada durante la Carrera Web Full Stack de Acámica y Greendemia Academy</p>
+												<hr class="bg-info">
+												<a href="http://auka.tech/portfolio/Ciudad_zombie-COLQUE/juego.html" class="text-white">"Click aquí para jugar"</a>
+												<hr>
+												<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+												<hr>
+											</div>
+											<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-content-items-center">
+												<img src="img/img-trabajos/zombie1.jpg" alt="" class="img-fluid d-none d-sm-block">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card trabajos mb-3">
+							<a href="" data-toggle="modal" data-target="#bd-rompecabezas-modal-lg">
+								<img src="img/img-trabajos/rompecabezas.jpg" alt="imagen rompecabezas" class="img-fluid">
+							</a>
+						</div>
+						<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-rompecabezas-modal-lg">
+							<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+							</button>
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content style_trabajos text-white">
+									<div class="modal-body">
+										<div class="row">
+											<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12 small">
+												<h5>Rompecabezas</h5>
+												<p>Es un puzzle en el que debes combinar correctamente las piezas para armar la imagen.</p>
+												<p>En esta aplicación web utilizamos:</P>
+												<p>HTML5 - CSS3 - JS - JQ </p>
+												<p>Realizada durante la Carrera Web Full Stack de Acámica y Greendemia Academy</p>
+												<hr class="bg-info">
+												<a href="http://auka.tech/portfolio/Rompecabezas-Lasar/juego.html" class="text-white">"Click aquí para jugar"</a>
+												<hr>
+												<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+												<hr>
+											</div>
+											<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-items-center">
+												<img src="img/img-trabajos/rompecabezas1.jpg" alt="imagen rompecabezas" class="img-fluid d-none d-sm-block">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card trabajos mb-3">
+							<a href="" data-toggle="modal" data-target="#bd-mapa-modal-lg">
+								<img src="img/img-trabajos/mapa.jpg" alt="imagen mapa" class="img-fluid">
+							</a>
+						</div>
+						<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-mapa-modal-lg">
+							<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+							</button>
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content style_trabajos text-white">
+									<div class="modal-body">
+										<div class="row">
+											<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12 small">
+												<h5>Mapa Interactivo</h5>
+												<p>¡Logra que encuentren tu negocio!</p>
+												<p>Registra tus coordenadas y así encontrarán la dirección en Google Maps.</p>
+												<p>En esta aplicación web utilizamos:</p>
+												<p>HTML5 - CSS3 - JS - JQ - API de Google Maps </p>
+												<p>Realizada durante la Carrera Web Full Stack de Acámica y Greendemia Academy</p>
+												<hr class="bg-info">
+												<a href="http://auka.tech/portfolio/MapaInteractivoPorMaiaraCercasi/index.html" class="text-white">"Click aquí para ver"</a>
+												<hr>
+												<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+												<hr>
+											</div>
+											<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-content-items-center justify-content-end">
+												<img src="img/img-trabajos/mapa1.jpg" alt="imagen mapa" class="img-fluid d-none d-sm-block">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card trabajos mb-3">
+							<a href="" data-toggle="modal" data-target="#bd-encuestados-modal-lg">
+								<img src="img/img-trabajos/encuestados.jpg" alt="imagen de encuestas" class="img-fluid">
+							</a>
+						</div>
+						<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-encuestados-modal-lg">
+							<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+							</button>
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content style_trabajos text-white">
+									<div class="modal-body">
+										<div class="row">
+											<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12 small">
+												<h5>Encuestados</h5>
+												<p>Sistema de encuestas con un interfaz para el usuario y otra para el administrador.</p>
+												<p>Conoce la opinión y necesidades de tus potenciales clientes.</p>
+												<p>En esta aplicación web utilizamos:</p>
+												<p>HTML5 - CSS3 - JS - JQ - MVC</p>
+												<p>Realizada durante la Carrera Web Full Stack de Acámica y Greendemia Academy</p>
+												<hr class="bg-info">
+												<a href="http://auka.tech/portfolio/evangelina_oviedo_encuestados/index.html" class="text-white">"Click aquí para ver"</a>
+												<hr>
+												<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+												<hr>
+											</div>
+											<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-content-items-center justify-content-end">
+												<img src="img/img-trabajos/encuestados1.jpg" alt="imagen de encuestas" class="img-fluid d-none d-sm-block">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card trabajos mb-3">
+							<a href="" data-toggle="modal" data-target="#bd-living-modal-lg">
+								<img src="img/img-trabajos/living.jpg" alt="imagen de living" class="img-fluid">
+							</a>
+						</div>
+						<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-living-modal-lg">
+							<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+							</button>
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content style_trabajos text-white">
+									<div class="modal-body">
+										<div class="row">
+											<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12 small">
+												<h5>SITIO INSTITUCIONAL</h5>
+												<p>LIVINGS LUMINOSOS</p>
+												<p>Es un sitio institucional que muestra y vende un producto.</p>
+												<p>En esta página utilizamos:</p>
+												<p>HTML5 - CSS3 - JS - Framework </p>
+												<hr class="bg-info">
+												<a href="http://livingsluminosos.com/" class="text-white">"Click aquí para ver"</a>
+												<hr>
+												<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+												<hr>
+											</div>
+											<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-items-center">
+												<img src="img/img-trabajos/living1.jpg" alt="imagen de living" class="img-fluid d-none d-sm-block">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card trabajos mb-3">
+							<a href="" data-toggle="modal" data-target="#bd-pixel-modal-lg">
+								<img src="img/img-trabajos/pixel.jpg" alt="imagen de juego Pixel-Art" class="img-fluid">
+							</a>
+						</div>
+						<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-pixel-modal-lg">
+							<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content style_trabajos text-white">
+									<div class="modal-body">
+										<div class="row">
+											<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12 small">
+												<h5>Pixel-Art</h5>
+												<p>¡Edita en línea tus héroes favoritos!</p>
+												<p>Realiza tus dibujos desde la plantilla en blanco o a partir de los modelos.</p>
+												<p>Colorea cuadro por cuadro, pixel por pixel.</p>
+												<p>En esta aplicación web utilizamos:</p>
+												<p>HTML5 - CSS3 - JS - JQ</p>
+												<p>Realizada durante la Carrera Web Full Stack de Acámica y Greendemia Academy</p>
+												<hr class="bg-info">
+												<a href="http://auka.tech/portfolio/AlePatti-Pixel-Art/index.html" class="text-white">"Click aquí para jugar"</a>
+												<hr>
+												<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+												<hr>
+											</div>
+											<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-content-items-center justify-content-end">
+												<img src="img/img-trabajos/pixel1.jpg" alt="imagen de juego Pixel-Art" class="img-fluid d-none d-sm-block">
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+			</section>
+		</main>
+
+			<div class="style_somos d-md-none px-5 py-3 text-primary">
+				<h2 class="text-center mb-3">Somos</h2>
+				<p class="text-center">Desafío. Convicción. Empoderamiento. Pasión por el desarrollo web, pasión por el código. Cada proyecto tiene su historia, cuéntanos la tuya y la haremos realidad.</p>
 			</div>
 
-			<!--PROYECTO 4-->
-			<div class="card trabajos mb-3">
-				<a href="" data-toggle="modal" data-target="#bd-encuestados-modal-lg">
-	<img src="./images/img-trabajos/encuestados.jpg" alt="" class="img-fluid">
-	</a>
+			<section class="container-fluid mt-5 mb-5 ">
+				<div class="container">
+					<h2 class="fondo_blanco text-center mb-3 d-none d-md-block">Somos</h2>
+					<p class="text-muted text-center d-none d-md-block">Desafío. Convicción. Empoderamiento.
+						<br>Pasión por el desarrollo web, pasión por el código.
+						<br>Cada proyecto tiene su historia, cuéntanos la tuya y la haremos realidad.</p>
+					<div class="row justify-content-center">
+						<div class="col-lg-6 col-md-7 col-sm-8 mt-4">
+							<figure class="figure">
+								<img src="img/img-somos/globo-todo-conectado.png" class="img-fluid" alt="Logo globo conectado">
+							</figure>
+						</div>
+					</div>
+				</div>
+			</section>
 
-			</div>
-
-			<!-- Modal -->
-
-			<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-encuestados-modal-lg">
-				<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
-	<span aria-hidden="true">&times;</span>
-	</button>
-				<div class="modal-dialog modal-lg">
-					<div class="modal-content style_trabajos text-white">
+			<div class="container formulario_dispositivos d-md-none">
+				<div class="row">
+					<div class="col">
 						<div class="modal-body">
-							<div class="row">
-								<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12">
-									<h5>Título</h5>
-									<p>*Una descripción</p>
-									<p>*Una descripción</p>
-									<p>*Una descripción</p>
-									<p>*Una descripción</p>
-									<p>*Una descripción</p>
-									<hr>
-									<a href="#" class="text-white">"Click aquí para ver"</a>
-									<hr>
-									<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
-									<hr>
+							<form method="post" action="https://formspree.io/info@auka.tech">
+								<h5 class="text-primary text-center mb-3">Envíanos una consulta</h5>
+								<div class="form-group">
+									<label class="form-control-label text-muted">Nombre:</label>
+									<input type="text" class="form-control" name="nombre" placeholder="">
 								</div>
-								<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-content-items-center justify-content-end">
-									<img src="./images/img-trabajos/encuestados1.jpg" alt="" class="img-fluid d-none d-sm-block">
+								<div class="form-group">
+									<label class="form-control-label text-white text-muted">E-mail:</label>
+									<input type="email" class="form-control" name="email" placeholder="">
 								</div>
-							</div>
+								<div class="form-group">
+									<label class="form-control-label text-muted">Mensaje:</label>
+									<textarea class="form-control" name="message" placeholder=""></textarea>
+								</div>
+								<div class="d-flex justify-content-center">
+									<button type="submit" class="btn btn-primary">Enviar</button>
+								</div>
+								<hr class="bg-info">
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col redes-sociales">
+						<p class="text-white text-center text-muted">Encuéntranos en</p>
+						<div class="text-center mt-4">
+							<a href="https://twitter.com/aukatech"><span class="icon-twitter icono twitter"></span></a>
+							<a href="https://www.facebook.com/AukaTech"><span class="icon-facebook icono facebook"></span></a>
+							<a href="https://www.instagram.com/aukatech"><span class="icon-instagram icono instagram"></span></a>
+							<p class="text-center text-muted mt-4 mr-2">Auka.tech &copy; 2018</p>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<!--PROYECTO 5-->
-	<div class="card trabajos mb-3">
-		<a href="" data-toggle="modal" data-target="#bd-living-modal-lg">
-		<img src="./images/img-trabajos/living.jpg" alt="" class="img-fluid">
-		</a>
-
-	</div>
-
-			<!-- Modal -->
-
-			<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-living-modal-lg">
-				<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
-	<span aria-hidden="true">&times;</span>
-	</button>
-				<div class="modal-dialog modal-lg">
-					<div class="modal-content style_trabajos text-white">
-						<div class="modal-body">
-							<div class="row">
-								<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12">
-									<h5>Título</h5>
-									<p>*Una descripción</p>
-									<p>*Una descripción</p>
-									<p>*Una descripción</p>
-									<p>*Una descripción</p>
-									<p>*Una descripción</p>
-									<hr>
-									<a href="#" class="text-white">"Click aquí para ver"</a>
-									<hr>
-									<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
-									<hr>
+			<footer class="container-fluid mt-5 style_footer d-none d-md-block" id="scroll_consultas">
+				<div class="row justify-content-between">
+					<div class="col-lg-3 col-md-5 logo_nav mt-3 ml-3 text-center">
+						<img src="img/img-header/auka-sin-escudo.png" class="img-fluid" alt="Logo de auKa">
+						<p class="text-white mt-3 p_m">Martín Palero 20 <br> CP 5501 <br> Mendoza, Argentina</p>
+					</div>
+					<div class="col-lg-4 col-md-5 mt-4 redes-sociales">
+						<p class="text-white text-center">Encuéntranos en</p>
+						<div class="text-center mt-4">
+							<a href="https://twitter.com/aukatech"><span class="icon-twitter icono twitter"></span></a>
+							<a href="https://www.facebook.com/AukaTech"><span class="icon-facebook icono facebook"></span></a>
+							<a href="https://www.instagram.com/aukatech"><span class="icon-instagram icono instagram"></span></a>
+							<p class="text-center text-white mt-4 mr-2">Auka.tech &copy; 2018</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12 mt-4 mb-3 text-center">
+						<p class="text-white text-center">e-mail: info@auka.tech</p>
+						<button type="button" class="btn btn-outline-info text-white mt-2 btn-lg" data-toggle="modal" data-target="#exampleModal">Consulta</button>
+					</div>
+					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLabel">Nuevo Mensaje</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
 								</div>
-								<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-items-center">
-									<img src="./images/img-trabajos/living1.jpg" alt="" class="img-fluid d-none d-sm-block">
+								<div class="modal-body">
+									<form action="https://formspree.io/info@ahuka.tech method=" POST "">
+										<div class="form-group">
+											<label for="recipient-name" class="form-control-label">Nombre:</label>
+											<input type="text" class="form-control" id="recipient-name ">
+										</div>
+										<div class="form-group">
+											<label for="recipient-name" class="form-control-label">E-mail:</label>
+											<input type="text" class="form-control" id="recipient-name placeholder=" tu e-mail "">
+										</div>
+										<div class="form-group">
+											<label for="message-text" class="form-control-label">Mensaje:</label>
+											<textarea class="form-control" id="message-text placeholder=" escribe tu mensaje></textarea>
+										</div>
+										<input type="text" name="_gotcha" style="display:none" />
+									</form>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+									<button type="button" class="btn btn-primary">Enviar</button>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			</footer>
 
-			<!--PROYECTO 6-->
-	<div class="card trabajos mb-3">
-		<a href="" data-toggle="modal" data-target="#bd-pixel-modal-lg">
-		<img src="./images/img-trabajos/pixel.jpg" alt="" class="img-fluid">
-		</a>
-
-	</div>
-
-			<!-- Modal -->
-
-			<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="bd-pixel-modal-lg">
-				<button type="button" class="close mr-2 mt-4 text-white" data-dismiss="modal" aria-label="Close">
-	<span aria-hidden="true">&times;</span>
-	</button>
-				<div class="modal-dialog modal-lg">
-					<div class="modal-content style_trabajos text-white">
-						<div class="modal-body">
-							<div class="row">
-								<div class="col-lg-4 col-lg-offset-4 col-md-12 col-md-offset-12">
-									<h5>Título</h5>
-									<p>*Una descripción</p>
-									<p>*Una descripción</p>
-									<p>*Una descripción</p>
-									<p>*Una descripción</p>
-									<p>*Una descripción</p>
-									<hr>
-									<a href="#" class="text-white">"Click aquí para jugar"</a>
-									<hr>
-									<button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
-									<hr>
-								</div>
-								<div class="col-lg-8 col-lg-offset-8 col-md-12 col-md-offset-12 d-flex justify-content-items-center justify-content-end">
-									<img src="./images/img-trabajos/pixel1.jpg" alt="" class="img-fluid d-none d-sm-block">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-</section>
-
-<!--fin TRABAJOS-->
-
-<!--Environment overview at your fingertips, LOGO GIGANTE CON BOTÓN DE Consultas-->
-<section class="container-fluid mt-5 mb-5 ">
-  <div class="container">
-    <h2 class="text-info text-center mb-3">Somos</h2>
-			<p class="text-muted text-center">Desafío. Convicción. Empoderamiento. Pasión por el desarrollo web, pasión por el código.
-				Cada proyecto tiene su historia, cuéntanos la tuya y la haremos realidad.</p>
-    <div class="row d-flex justify-content-center">
-      <div class="col-xl-9 col-lg-6 col-sm-8 mt-4">
-        <figure class="figure">
-          <img src="images/globo-todo-conectado.png" class="img-fluid" alt="Logo globo conectado">
-        </figure>
-      </div>
-    </div>
-  </div>
-</section>
-  <!--fin section-->
-
-	<!--FORMULARIO/footer EN SMARTPHONE-->
-<div class="container form_smart d-sm-none">
-	<div class="row">
-		<div class="col">
-			<div class="modal-body">
-				<form>
-					<h5 class="text-primary text-center mb-3">Envíanos una consulta</h5>
-					<div class="form-group">
-						<label for="recipient-name" class="form-control-label text-muted">Nombre:</label>
-						<input type="text" class="form-control" id="recipient-name">
-					</div>
-					<div class="form-group">
-						<label for="recipient-name" class="form-control-label text-white text-muted">E-mail:</label>
-						<input type="text" class="form-control" id="recipient-name">
-					</div>
-					<div class="form-group">
-						<label for="message-text" class="form-control-label text-muted">Mensaje:</label>
-						<textarea class="form-control" id="message-text"></textarea>
-					</div>
-					<div class="d-flex justify-content-center">
-						<button type="button" class="btn btn-primary">Enviar</button>
-					</div>
-					<hr class="bg-info">
-				</form>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col redes-sociales">
-			<p class="text-white text-center text-muted">Encuéntranos en</p>
-			<div class="text-center mt-4">
-				<a href="https://twitter.com/aukatech"><span class="icon-twitter icono twitter"></span></a>
-				<a href="https://www.facebook.com/AukaTech"><span class="icon-facebook icono facebook"></span></a>
-				<a href="https://www.instagram.com/aukatech"><span class="icon-instagram icono instagram"></span></a>
-				<p class="text-center text-muted mt-4 mr-2">Auka.tech &copy; 2018
-					<p>
-			</div>
-		</div>
-	</div>
-</div>
-
-
-  <!--FOOTER Y FORMULARIO DE CONTACTO-->
-
-  <footer class="container-fluid mt-5 style_footer d-none d-sm-block" id="scroll_consultas">
-	<div class="row justify-content-between">
-
-
-		<div class="col-lg-3 col-md-5 logo_nav mt-3 ml-3 text-center">
-			<img src="images/auka-sin-escudo.png" class="img-fluid" alt="Logo de auKa">
-			<p class="text-white mt-3">Martín Palero 20 <br> CP 5501 <br> Mendoza, Argentina</p>
-		</div>
-
-		<div class="col-lg-4 col-md-5 mt-4 redes-sociales">
-			<p class="text-white text-center">Encuéntranos en</p>
-			<div class="text-center mt-4">
-				<a href="https://twitter.com/aukatech"><span class="icon-twitter icono twitter"></span></a>
-				<a href="https://www.facebook.com/AukaTech"><span class="icon-facebook icono facebook"></span></a>
-				<a href="https://www.instagram.com/aukatech"><span class="icon-instagram icono instagram"></span></a>
-				<p class="text-center text-white mt-4 mr-2">Auka.tech &copy; 2018<p>
-			</div>
-		</div>
-		<div class="col-lg-4 col-md-12 mt-4 mb-3 text-center">
-					<p class="text-white text-center" >e-mail: info@auka.tech</p>
-			<button type="button" class="btn btn-outline-info text-white mt-2 btn-lg" data-toggle="modal" data-target="#exampleModal">consulta</button>
-		</div>
-
-			 <!--Formulario-->
-
-     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-       <div class="modal-dialog" role="document">
-         <div class="modal-content">
-           <div class="modal-header">
-             <h5 class="modal-title" id="exampleModalLabel">Nuevo Mensaje</h5>
-             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-               <span aria-hidden="true">&times;</span>
-             </button>
-           </div>
-           <div class="modal-body">
-             <form action="https://formspree.io/info@ahuka.tech method="POST"">
-               <div class="form-group">
-                 <label for="recipient-name" class="form-control-label">Nombre:</label>
-                 <input type="text" class="form-control" id="recipient-name ">
-               </div>
-							 <div class="form-group">
-                 <label for="recipient-name" class="form-control-label">E-mail:</label>
-                 <input type="text" class="form-control" id="recipient-name placeholder="tu e-mail"">
-               </div>
-               <div class="form-group">
-                 <label for="message-text" class="form-control-label">Mensaje:</label>
-                 <textarea class="form-control" id="message-text placeholder="escrive tu mensaje></textarea>
-               </div>
-               <input type="text" name="_gotcha" style="display:none" />
-             </form>
-           </div>
-
-				<div class="modal-footer">
-             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-             <button type="button" class="btn btn-primary">Enviar</button>
-           </div>
-         </div>
-       </div>
-     </div>
-		<!--fin-Formulario-->
-
-		</div>
-
-
-  </footer>
-
-  <!-- jQuery,popper,Bootstrap JS y script para el efecto scroll del nav #menu, archivo js?? o lo dejamos acá??. -->
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script>
-    $(window).scroll(function() {
-      if ($("#menu").offset().top > 56) {
-        $("#menu").addClass("style_nav");
-      } else {
-        $("#menu").removeClass("style_nav");
-      }
-    });
-  </script>
+	<script src="js/nav.js"></script>
 
-</body>
+	</body>
 
 </html>
