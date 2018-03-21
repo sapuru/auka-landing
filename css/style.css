@@ -6,7 +6,7 @@ body {
 
 .style_banner_header {
 
-  background: url("../img/img-header/header.jpg")no-repeat fixed center center;
+  background: url("../img/img-header/header.jpg")no-repeat center center;
   background-size: cover;
   margin-top: 0;
 }
